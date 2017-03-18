@@ -1,0 +1,35 @@
+.button{
+    -fx-font-family: "Helvetica Neue Ligth";
+    -fx-font-size: 21px;
+    -fx-background-radius: 0px;
+    -fx-background-color: rgb(224,224,224);
+    -fx-border-color: rgb(142,142,142);
+    -fx-border-width: 0.3px;
+}
+
+.button:pressed{
+    -fx-background-color: rgb(178,178,178);
+}
+
+.display{
+    -fx-font-family: "Helvetica Neue Ultra Ligth";
+    -fx-font-size: 46px;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: grey;
+}
+
+.operator{
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: rgb(254,147,64);
+}
+.operator:pressed{
+    -fx-background-color: rgb(202,116,49);
+}
+
+.management{
+    -fx-background-color: rgb(214,214,214);
+}
+
+.management:pressed{
+    -fx-background-color: rgb(178,178,178);
+}
